@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 https://github.com/eea/odfpy/wiki/Introduction
 """
@@ -28,5 +29,7 @@ boldpart = Span(stylename=boldstyle, text="This part is bold. ")
 p.addElement(boldpart)
 p.addText("This is after bold.")
 textdoc.text.addElement(p)
+
+print(textdoc.xml())
 
 textdoc.save("myfirstdocument.odt")
