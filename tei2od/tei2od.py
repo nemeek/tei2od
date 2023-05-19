@@ -33,3 +33,20 @@ textdoc.text.addElement(p)
 print(textdoc.xml())
 
 textdoc.save("myfirstdocument.odt")
+
+def returnparser():
+    parser = argparse.ArgumentParser(
+        description='odt files to xml'
+    )
+    parser.add_argument('infile')
+    # parser.add_argument('outfile')
+
+    return parser
+
+def main(p: argparse.ArgumentParser):
+    args = p.parse_args()
+    infile = args.infile
+
+if __name__ == '__main__':
+    argparser = returnparser()
+    main(argparser)
