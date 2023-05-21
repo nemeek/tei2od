@@ -1,0 +1,321 @@
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+  <office:meta>
+    <meta:creation-date>2023-05-20T22:32:02.377695267</meta:creation-date>
+    <dc:date>2023-05-21T23:01:48.283705292</dc:date>
+    <meta:editing-duration>PT22M35S</meta:editing-duration>
+    <meta:editing-cycles>3</meta:editing-cycles>
+    <meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="3" meta:paragraph-count="25" meta:word-count="1515" meta:character-count="9590" meta:non-whitespace-character-count="8084"/>
+    <meta:generator>ODFPY/1.4.1</meta:generator>
+  </office:meta>
+  <office:scripts/>
+  <office:font-face-decls>
+    <style:font-face style:name="Arial Unicode MS1" svg:font-family="'Arial Unicode MS'" style:font-family-generic="swiss"/>
+    <style:font-face style:name="Liberation Mono" svg:font-family="'Liberation Mono'" style:font-family-generic="modern" style:font-pitch="fixed"/>
+    <style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Liberation Sans" svg:font-family="'Liberation Sans'" style:font-family-generic="swiss" style:font-pitch="variable"/>
+    <style:font-face style:name="Arial Unicode MS" svg:font-family="'Arial Unicode MS'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="PingFang SC" svg:font-family="'PingFang SC'" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Songti SC" svg:font-family="'Songti SC'" style:font-family-generic="system" style:font-pitch="variable"/>
+  </office:font-face-decls>
+  <office:settings>
+    <config:config-item-set config:name="ooo:view-settings">
+      <config:config-item config:name="ViewAreaTop" config:type="long">18632</config:config-item>
+      <config:config-item config:name="ViewAreaLeft" config:type="long">1637</config:config-item>
+      <config:config-item config:name="ViewAreaWidth" config:type="long">20368</config:config-item>
+      <config:config-item config:name="ViewAreaHeight" config:type="long">21766</config:config-item>
+      <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+      <config:config-item-map-indexed config:name="Views">
+        <config:config-item-map-entry>
+          <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+          <config:config-item config:name="ViewLeft" config:type="long">10275</config:config-item>
+          <config:config-item config:name="ViewTop" config:type="long">48334</config:config-item>
+          <config:config-item config:name="VisibleLeft" config:type="long">1637</config:config-item>
+          <config:config-item config:name="VisibleTop" config:type="long">18632</config:config-item>
+          <config:config-item config:name="VisibleRight" config:type="long">22003</config:config-item>
+          <config:config-item config:name="VisibleBottom" config:type="long">40397</config:config-item>
+          <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+          <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+          <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+          <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
+          <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+          <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+        </config:config-item-map-entry>
+      </config:config-item-map-indexed>
+    </config:config-item-set>
+    <config:config-item-set config:name="ooo:configuration-settings">
+      <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+      <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintFaxName" config:type="string"/>
+      <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="RsidRoot" config:type="int">483801</config:config-item>
+      <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+      <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+      <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+      <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+      <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+      <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+      <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrinterName" config:type="string"/>
+      <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+      <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+      <config:config-item config:name="Rsid" config:type="int">913615</config:config-item>
+      <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+      <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+      <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+    </config:config-item-set>
+  </office:settings>
+  <office:styles>
+    <style:default-style style:family="graphic">
+      <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
+      <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="et" fo:country="EE" style:letter-kerning="true" style:font-name-asian="Songti SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial Unicode MS" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+    </style:default-style>
+    <style:default-style style:family="paragraph">
+      <style:paragraph-properties fo:orphans="2" fo:widows="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="page"/>
+      <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="et" fo:country="EE" style:letter-kerning="true" style:font-name-asian="Songti SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial Unicode MS" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+    </style:default-style>
+    <style:default-style style:family="table">
+      <style:table-properties table:border-model="collapsing"/>
+    </style:default-style>
+    <style:default-style style:family="table-row">
+      <style:table-row-properties fo:keep-together="auto"/>
+    </style:default-style>
+    <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+    <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+      <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" fo:keep-with-next="always"/>
+      <style:text-properties style:font-name="Liberation Sans" fo:font-family="'Liberation Sans'" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="PingFang SC" style:font-family-asian="'PingFang SC'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Arial Unicode MS" style:font-family-complex="'Arial Unicode MS'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+    </style:style>
+    <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+      <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.247cm" loext:contextual-spacing="false" fo:line-height="115%"/>
+    </style:style>
+    <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+      <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Arial Unicode MS1" style:font-family-complex="'Arial Unicode MS'" style:font-family-generic-complex="swiss"/>
+    </style:style>
+    <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+      <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+      <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Arial Unicode MS1" style:font-family-complex="'Arial Unicode MS'" style:font-family-generic-complex="swiss" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+    </style:style>
+    <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+      <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+      <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Arial Unicode MS1" style:font-family-complex="'Arial Unicode MS'" style:font-family-generic-complex="swiss"/>
+    </style:style>
+    <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="2" style:class="text">
+      <style:paragraph-properties fo:margin-top="0.353cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+      <style:text-properties fo:font-size="115%" fo:font-weight="bold" style:font-size-asian="115%" style:font-weight-asian="bold" style:font-size-complex="115%" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="Heading_20_3" style:display-name="Heading 3" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="3" style:class="text">
+      <style:paragraph-properties fo:margin-top="0.247cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+      <style:text-properties fo:font-size="101%" fo:font-weight="bold" style:font-size-asian="101%" style:font-weight-asian="bold" style:font-size-complex="101%" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="Heading_20_4" style:display-name="Heading 4" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="4" style:class="text">
+      <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+      <style:text-properties fo:font-size="95%" fo:font-style="italic" fo:font-weight="bold" style:font-size-asian="95%" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-size-complex="95%" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+    </style:style>
+    <style:style style:name="Header_20_and_20_Footer" style:display-name="Header and Footer" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+      <style:paragraph-properties text:number-lines="false" text:line-number="0">
+        <style:tab-stops>
+          <style:tab-stop style:position="8.5cm" style:type="center"/>
+          <style:tab-stop style:position="17cm" style:type="right"/>
+        </style:tab-stops>
+      </style:paragraph-properties>
+    </style:style>
+    <style:style style:name="Footer" style:family="paragraph" style:parent-style-name="Header_20_and_20_Footer" style:class="extra">
+      <style:paragraph-properties text:number-lines="false" text:line-number="0">
+        <style:tab-stops>
+          <style:tab-stop style:position="8.5cm" style:type="center"/>
+          <style:tab-stop style:position="17cm" style:type="right"/>
+        </style:tab-stops>
+      </style:paragraph-properties>
+    </style:style>
+    <style:style style:name="Footnote" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+      <style:paragraph-properties fo:margin-left="0.598cm" fo:margin-right="0cm" fo:text-indent="-0.598cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+      <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+    </style:style>
+    <style:style style:name="eestikeelne" style:family="paragraph" style:parent-style-name="Standard">
+      <style:text-properties fo:font-style="italic"/>
+    </style:style>
+    <style:style style:name="Footnote_20_Symbol" style:display-name="Footnote Symbol" style:family="text"/>
+    <style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor" style:family="text">
+      <style:text-properties style:text-position="super 58%"/>
+    </style:style>
+    <style:style style:name="Source_20_Text" style:display-name="Source Text" style:family="text">
+      <style:text-properties style:font-name="Liberation Mono" fo:font-family="'Liberation Mono'" style:font-family-generic="modern" style:font-pitch="fixed" style:font-name-asian="Liberation Mono" style:font-family-asian="'Liberation Mono'" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-name-complex="Liberation Mono" style:font-family-complex="'Liberation Mono'" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed"/>
+    </style:style>
+    <style:style style:name="Example" style:family="text">
+      <style:text-properties style:font-name="Liberation Mono" fo:font-family="'Liberation Mono'" style:font-family-generic="modern" style:font-pitch="fixed" style:font-name-asian="Liberation Mono" style:font-family-asian="'Liberation Mono'" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-name-complex="Liberation Mono" style:font-family-complex="'Liberation Mono'" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed"/>
+    </style:style>
+    <text:outline-style style:name="Outline">
+      <text:outline-level-style text:level="1" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="2" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="3" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="4" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="5" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="6" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="7" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="8" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="9" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+      <text:outline-level-style text:level="10" style:num-format="">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+          <style:list-level-label-alignment text:label-followed-by="listtab"/>
+        </style:list-level-properties>
+      </text:outline-level-style>
+    </text:outline-style>
+    <text:notes-configuration text:note-class="footnote" text:citation-style-name="Footnote_20_Symbol" text:citation-body-style-name="Footnote_20_anchor" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+    <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+    <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1" text:number-position="left" text:increment="5"/>
+  </office:styles>
+  <office:automatic-styles>
+    <style:page-layout style:name="Mpm1">
+      <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+        <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+      </style:page-layout-properties>
+      <style:header-style/>
+      <style:footer-style/>
+    </style:page-layout>
+  </office:automatic-styles>
+  <office:master-styles>
+    <style:master-page style:name="Standard" style:page-layout-name="Mpm1"/>
+  </office:master-styles>
+  <office:body>
+    <office:text text:use-soft-page-breaks="true">
+      <text:sequence-decls>
+        <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+        <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+        <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+        <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+        <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+      </text:sequence-decls>
+      <text:h text:style-name="Heading_20_2" text:outline-level="2">1. KOIDULA KREUTZWALDILE</text:h>
+      <text:h text:style-name="Heading_20_3" text:outline-level="3">EKM EKLA, f 63, m 1:2, l 1</text:h>
+      <text:h text:style-name="Heading_20_4" text:outline-level="4">[7. novembril 1867.]</text:h>
+      <text:p text:style-name="eestikeelne">Kui needsinatsed sõnad tundmata sulest Teie silma alla ulatavad, siis — ma palun Teid kõigest südamest —, siis tuletage meelde, mis Teie ise olete ütelnud, et "noore inimese palavat südant mitte jahtund vere mõõduga ei peaks mõõdetama".<text:note text:id="ftn0" text:note-class="footnote"><text:note-citation>1</text:note-citation><text:note-body><text:p text:style-name="Footnote">Vihje Kr-i pealkirjata jutule, mis ilmus 1865—1873 "Eesti rahva kasulises kalendris" ja kirjandusajaloos üldiselt tuntud "Mihkel Põllupapi" nime all. Kr. kirjutas selles: "Vanemad inimesed eksivad sagedasti, kui nemad oma jahtunud verega noore inimese palavat südant lähevad mõõtma, sealjuures iga kord unustavad, et nemad ise ka omal ajal noored olid olnud ja kolme-, neljakümne aasta eest mitte küüneväärt paremini ei osanud talitada." Eesti rahva kasuline kalender 1868. aasta peale... Tartus, [1867], lk 36—37; vt ka Kr-i "Jutud". Tallinn, 1953, lk 454.</text:p></text:note-body></text:note> Ma kardan, et ma väga vastu elatand inimeste tarka nõu teen, kui praegu julgen Teie ette astuda, mina, kes ma oma isa laps<text:note text:id="ftn1" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body><text:p text:style-name="Footnote">S.o eesti rahvusliku liikumise juhtiva tegelase Johann Voldemar Jannseni (1819—1890) tütar.</text:p></text:note-body></text:note> <text:s/>ja mitme muu asja poolest Teile vastumeelt olen. Jah, ma tunnistan, ses arguse vastu võitlemises pidin ma kõik austuse ja armastuse appi kutsuma, mis sestsaadik, kui ma oma rahva asjust hakkasin aru saama, Viru lauliku vastu minu rinnus elab. Aga ma ei või elades uskuda, et suurel mehel mitte ruumikas süda rinnus ei peaks tuksuma.</text:p>
+      <text:p text:style-name="eestikeelne">Austatud härra, kas Teil elades on seda valu juhtunud, teist oma üle näha kohut mõistvat, ilma et kohtumõistjal Teie tegude põhi ja aru selge oli? Oh, see on kibe kannatada, seda kibedam, mida kõrgemat aujärge Teie kohtumõistjale südames ehitasite! Ma loodan südamest, et see valu Teile tundmata oleks ja jääks, — ja Teie olete ikka meesterahvas, kel tuhat teed ja nõu oma sõnaga ja seletusega teistele aru anda! Nüüd mõtelge aga — üks vaene naisterahvas! Seal voolab rohkeid ja palavaid silmapisaraid, kus kellegi silm ei näe, süda aga küsib küll kord ülevalt: "Miska olen ma seda teeninud?"</text:p>
+      <text:p text:style-name="eestikeelne">Mul ei ole vist enam tarvis Teile seletada, et ma Teie tähendusesõnadest 1868. [aasta] kalendri sabas täiesti aru olen saanud.<text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>3</text:note-citation><text:note-body><text:p text:style-name="Footnote">S.o Kr-i pilkavast väljaastumisest naiskirjanike vastu, vt eessõna.</text:p></text:note-body></text:note> Mulle ei ole ju, tänu jumalale, veel keegi teine eesti tütarlaps seda head või paha meelt teinud, minule ses okkalises "kirjaneitsi" seisuses appi tulla. Hoidku Isa ka igaühte nii valusa töö eest! Nii piinalikkude tundide ahastust ei sooviks ma kellelegi tütarlapsele, kellel eesti veri soontes tuksub.</text:p>
+      <text:p text:style-name="eestikeelne">Mina olen oma isa vanem laps ja ainus abi tema töö juures — seda ei ole Teile vist keegi neist "häist sõbrust" seletanud, kellega jumal mind nagu iga inimest kannatuse katsumiseks siin maailmas õnnistanud. Peale 6 aastat juba olen ma tema käsikirjutaja, suurem hulk tema kirjasõnu käib minu käe läbi, sest mu vaese isa parem käsi on väga kange ja läheb päev-päevalt kangemaks — ta ei saa tunni ajaga mitte täit lehekülge enam paberi kätte anda. Oh, austatud härra, kui Teie teaksite, kui sagedasti "paberinirk" laua taga istub ja sõnu maailma saadab, millest süda midagi ei tea. Minu nooremad vennad ja õde ei tea enam eesti keelest kui kõik lapsed, kes linna paigus suureks saanud; on muist kottu ära, muist kooliskäijad.<text:note text:id="ftn3" text:note-class="footnote"><text:note-citation>4</text:note-citation><text:note-body><text:p text:style-name="Footnote">Koidulal oli üks õde ja neli venda, kõik temast nooremad: Eugenie Cäcilie Fanny (1845—1897), 1872. a alates abielus arst Heinrich Rosenthaliga; Johann Emil Leopold (1847—1880), Julius August Wilhelm (1849—1869), Heinrich (Harry) Voldemar Amandus (1851—1913), hiljem ajakirjanik ja tsensor; Eugen Friedrich Reinhold (1853—1930), arst, ka ajakirjanik ja tsensor.</text:p></text:note-body></text:note> Jumal üksi teab, kas üksainus neist isa ametipärijaks saab! Mina, kõige vanem, aga olen suureks saanud isa vaimus ja isa kirjutuselaua taga, ma olen ta valud, mured ja mõtted ühes temaga tundnud, ma saan ka sinna jääma, seni kui ta kallid vanad silmad veel lahti on — keda võiks ta enam uskuda kui oma last? Kelle käest rõõmsamat abi oodata kui oma lapse käest? — Teile aga, austatud härra, Teile on kõigi eesti poegade kasuks ette räägitud, kuida kusagil Tartus mõni ninatark neitsi "nõelast ja sukavardast lahkudes orjavitsalisel raamatukirjutamise teel <text:span text:style-name="Example">"õnne"</text:span> läinud katsuma" — suuremat süüdi ei võidud meesterahva silmis naisterahva peale mõista. Oh, austatud härra! Seda tööd ei oleks Teie, mind selgemini tundes, enese peale võtnudki! "Kirjaneitsi" on oma vanemate katuse alla eluksajaks <text:soft-page-break/>kinni paelutatud — see ei läheks muidugi kellelegi ja võiks kõik hirmutamiselaulud tema pärast laulmata jääda. Jumal üksi aga loeb palavaid silmapisaraid ja vaikne öö ohkamisi! Tark maailm aga mõistab kohut — miks ei? Nutvate silmade vastu on ju külma vett.</text:p>
+      <text:p text:style-name="eestikeelne">Peaks seda aga Teitest minule ninatarkuseks arvatama, et mina, nõder naisterahvas, meie rahva tarkade laulikute hulgas julgenud häält tõsta, siis lubage kannatuses mind mõne sõnaga Teile seletada, — mitte, kuida ma laulma hakanud, — seda ei teaks ma kõige hea meele ja tahtmise väega Teile ometi ei iial seletada, vaid miks ma oma laulu mitte igavesti oma teada ei ole hoidnud ega kapi nurka jätnud kollatama.</text:p>
+      <text:p text:style-name="eestikeelne">Ühel päeval nimetas üks tuttav<text:note text:id="ftn4" text:note-class="footnote"><text:note-citation>5</text:note-citation><text:note-body><text:p text:style-name="Footnote">Tundmata.</text:p></text:note-body></text:note>, kes ennast meie majasõbra ütles olevat ja keda meie seks pidasime, mind suu sisse "laulu-" (ma tahan ütelda) "tegijaks" ja hakkas mind nõnda kiitma, et ma alles õieti kahtlaseks<text:note text:id="ftn5" text:note-class="footnote"><text:note-citation>6</text:note-citation><text:note-body><text:p text:style-name="Footnote">S.o kahtlevaks.</text:p></text:note-body></text:note> läksin. Meie rääkisime ja vaidlesime palju selle asja üle, ja et mul hirm südames elas oma lauludega santide salmikute hulka suuremaks kasvatada, siis nimetasin ma temale, et <text:span text:style-name="Example">Teie</text:span> nõu ja sõna, austatud härra, mulle kõige selgemaks peegliks mu edaspidise võtmise ja jätmise juures võiks olla. Tema lubas mulle Teie aru<text:note text:id="ftn6" text:note-class="footnote"><text:note-citation>7</text:note-citation><text:note-body><text:p text:style-name="Footnote">S.o arvamuse.</text:p></text:note-body></text:note> teada anda, — kuida oleksin ma julgenud <text:span text:style-name="Example">ise</text:span> Teile kirjutada! Et Teie sel ajal temaga kirju vahetasite, seda mina teadsin. Minul aga oli kindel nõu südames Teie sõna järgi teha; nii rumal ma ei ole, uskuda, et eesti rahvas minu lauludeta läbi ei saaks, ja heitliku, edeva tütarlapse nime alla saada, seks ei olnud mul himu. Mõne aja takka tähendas mulle kirjasaatja vastust saanud olevat. Ja mis see vastus ütles? "Tehku tööd edasi!" anti mulle nõu. See nõu tuli või öeldi tulevat ühe mehe käest, kellest ülemat ma laululoomise poolest oma rahva hulgast teist ei tundnud; kes minu mõtetes nii kõrgel seisis kui [ei] keegi muu laulik. Kui Viru laulik mind (tuntud või tundmata viisil) käskis tööd edasi teha, kas ma siis ei pidand uut lootust võtma? Ma olen siis tööd teinud nii hästi või puuduliselt, kui töö on; ma olen tööd teinud ilma kellegi hinge abi või nõuandmiseta! Ma olen ka kiitust küllalt leidnud — paraku! Et mind kõik kiitus mitte peast nõrgaks ei ole teinud, seda usun ma Teile sellega tunnistavat, et täna Teile julgen kirjutada. Sest, mis õieti kiiduväärt olnud, seda ei teadnud mulle kiitjad ütelda, seda ei seletanud mulle keegi; ja et ma mitte muda sees ei aelenud, seda kiitust arvan ma peaaegu laituse sekka!! Nii mõistmata ma aga ei ole, et ma ei teaks, kui palju, palju minu töö juures parandada jääb! Mis ma küll lootsin — mõistlikku laitust mulle anda —, seda ei ole keegi vaevaks võtnud. Keegi pole mind juhatanud, keegi maailmas mulle näitnud, kust kohast töö puuduline! Keegi ei ütelnud mulle: "Sest ja sest on selgesti näha, et sa laulmise lindude ja targemate inimeste ametiks pead jätma!" Seda ei teinud ei <text:span text:style-name="Example">keegi</text:span> maailmas. Mõistlikku laitust ja tarka keeldu mõistaksin ma ära kannatada. Niisugust täielikult hukkamõistmist ilma vähemagi seletamiseta, — kus <text:span text:style-name="Example">naisterahva heaks</text:span> laulu loomist ilma armuta hukka antakse, — austatud härra, ma tunnen omas südames, et ma seda mitte ei ole teeninud!</text:p>
+      <text:p text:style-name="eestikeelne">Nüüd aga, kus ma kui õpetusehimustaja laps Teie, ette tulen, Teid paludes: "Otsust, õiget otsust andke mulle!" — nüüd, Kalevipoja laulu looja, nüüd, meie rahva lauluisa, nüüd unustage ära, kes paluja on, mis teda ja Teid lahutanud ja lahutab, nüüd aidake üht vaest ja kahtlast<text:note text:id="ftn7" text:note-class="footnote"><text:note-citation>8</text:note-citation><text:note-body><text:p text:style-name="Footnote">S.o kahtlevat.</text:p></text:note-body></text:note> inimesesüdant iseenese ja maailmaga õigeks saada, rahu teha! Ütelge mulle, mis ma pean tegema, ja kui Teie seletate: "Jäta maha, mispeale sulle jõudu ei ole antud", ma tahan ustava südamega kõik laulusünnitamist püüda läinud aegade rüppe matta, südames ära suretada, mis laulma sunnib!! Täna ehk veel on mul võimust seks, ei tea, kas mõni aasta hiljemini jõud seks ulataks? Veel ehk võiksin ma seda — mitte sellepärast, et "nõela ja sukavarda" poole tagasi pööraksin, sest neist sõpradest ei ole ma siiamaale lahkunud. Ka mitte sellepärast, et "peenike pabernirk" enesest edaspidi noorikut näeks saavat — see mõte on surnud ja maha maetud! Aga ma tahan siis endale mujalt tööd püüda leida, mis südant vaigistab ja mind lubab ära unustada, et inimene ei ole maailma loodud söömiseks, joomiseks ja tühja üle tühje sõnu vahetamiseks niisugustega, kelle mõtted kolme vaksa pikkuselt üle maapinna ei ulata ja kes ometi naisterahvast veel heitlikumaks peavad, kui nemad ise on. Seista ja üksipäini ilma järelemõtlemiseta leemekulpi liigutada — seda <text:soft-page-break/>ma ei jõua! Mul on ikka, kui oleks meie auru ja välgu päevil kerge asi masinat niisuguse töö peale valmistada. Suure jumala andest aga võiandjat lüpsilehma muuta — seda ma alles koguni ei jõua!</text:p>
+      <text:p text:style-name="eestikeelne">Kas Teie minu sõnadest seda loete, mis ma olen tahtnud ütelda, või kas Teie neid kui liig kuuma verega tütarlapse tühja jutu kõrvale viskate — seda ma ei tea. Kuulsa dr. Kreutzwaldi ette ei oleks ma ka elades julgenud astuda. Ma olen lootnud, et, mis südamest tuleb, südamesse tungib, ja oma eesti rahva Viru lauliku juurde läinud. See olgu mu ainus vabandus.</text:p>
+      <text:p text:style-name="eestikeelne">Teile kõike õnne ja rõõmu soovides, mida taevas oma armsamatele lastele jagab, jään mina</text:p>
+      <text:p text:style-name="eestikeelne">Teid austamisel teretades</text:p>
+      <text:p text:style-name="eestikeelne">Teie</text:p>
+      <text:p text:style-name="eestikeelne">alandlik</text:p>
+      <text:p text:style-name="eestikeelne">Lydia Jannsen.</text:p>
+      <text:p text:style-name="eestikeelne">Tartus, 7. talvekuu p. 1867.</text:p>
+    </office:text>
+  </office:body>
+</office:document>
+
