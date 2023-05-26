@@ -24,7 +24,9 @@
       <office:body>
 	<office:text>
 	  <text:h text:outline-level="1" text:style-name="Heading_20_1"><xsl:value-of select="body/h1"/></text:h>
-	  <text:p><xsl:value-of select="body/p"/></text:p>
+	  <xsl:for-each select="body/p">
+	    <text:p><xsl:value-of select="."/></text:p>
+	  </xsl:for-each>
 	</office:text>
       </office:body>
     </office:document>
