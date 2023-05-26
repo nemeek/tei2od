@@ -29,7 +29,7 @@ def main(p: argparse.ArgumentParser):
     xslt = ET.parse(args.style)
     transform = ET.XSLT(xslt)
     newdom = transform(dom)
-    print(ET.tostring(newdom, pretty_print=True))
+    print(ET.tostring(newdom, pretty_print=True, encoding="unicode"))
 
 
 if __name__ == '__main__':
