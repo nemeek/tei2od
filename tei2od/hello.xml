@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <body>
   <h1>My first text</h1>
-  <p>Hello world. <span type="bold">This part is bold. </span>This is after bold.</p>
+  <p>Hello world. <span>This part is bold. </span>This is after bold.</p>
   <p>This is second paragraph.</p>
 </body>

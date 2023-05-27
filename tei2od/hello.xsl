@@ -31,4 +31,9 @@
       </office:body>
     </office:document>
   </xsl:template>
+  <xsl:template match="span">
+    <span style-name="Bold">
+      <xsl:value-of select="."/>
+    </span>
+  </xsl:template>
 </xsl:stylesheet>
