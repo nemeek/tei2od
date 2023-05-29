@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-		xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+		xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+		xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+		xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+		xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+		xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
 
   <xsl:template match="/">
-    <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+    <office:document  office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
       <office:meta>
 	<meta:generator>ODFPY/1.4.1</meta:generator>
       </office:meta>
@@ -25,7 +30,7 @@
 	<office:text>
 	  <text:h text:outline-level="1" text:style-name="Heading_20_1"><xsl:value-of select="body/h1"/></text:h>
 	  <xsl:for-each select="body/p">
-	    <text:p><xsl:value-of select="."/></text:p>
+	    <text:p><xsl:apply-templates/></text:p>
 	  </xsl:for-each>
 	</office:text>
       </office:body>
@@ -33,7 +38,7 @@
   </xsl:template>
   <xsl:template match="span">
     <span style-name="Bold">
-      <xsl:value-of select="."/>
+      <xsl:apply-templates/>
     </span>
   </xsl:template>
 </xsl:stylesheet>
