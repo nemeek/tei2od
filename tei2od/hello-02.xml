@@ -19,7 +19,7 @@
   <office:body>
     <office:text>
       <text:h text:outline-level="1" text:style-name="Heading_20_1">My first text</text:h>
-      <text:p>Hello world. <span style-name="Bold">This part is bold. </span>This is after bold.</text:p>
+      <text:p>Hello world. <text:span text:style-name="Bold">This part is bold. </text:span>This is after bold.</text:p>
       <text:p>This is second paragraph.</text:p>
     </office:text>
   </office:body>

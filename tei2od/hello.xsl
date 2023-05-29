@@ -37,8 +37,8 @@
     </office:document>
   </xsl:template>
   <xsl:template match="span">
-    <span style-name="Bold">
+    <text:span text:style-name="Bold">
       <xsl:apply-templates/>
-    </span>
+    </text:span>
   </xsl:template>
 </xsl:stylesheet>
