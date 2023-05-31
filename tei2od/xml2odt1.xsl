@@ -35,10 +35,7 @@
       <office:master-styles/>
       <office:body>
 	<office:text>
-	  <text:h text:outline-level="1" text:style-name="Heading_20_2"><xsl:value-of select="body/h1"/></text:h>
-	  <xsl:for-each select="body/p">
-	    <text:p><xsl:apply-templates/></text:p>
-	  </xsl:for-each>
+	  <xsl:apply-templates/>
 	</office:text>
       </office:body>
     </office:document>
@@ -48,8 +45,22 @@
       <xsl:apply-templates/>
     </text:span>
   </xsl:template>
-  <xsl:template match="p/i">
+  <xsl:template match="p/i" priority="1.0">
     <text:p text:style-name="eestikeelne">
       <xsl:apply-templates/>
     </text:p>
+  </xsl:template>
+  <xsl:template match="p" priority="0.0">
+    <xsl:if test="string(.)">
+      <text:p>
+	<xsl:apply-templates/>
+      </text:p>
+    </xsl:if>
+  </xsl:template>
+  <xsl:template match="h2">
+    <text:h text:style-name="Heading_20_2" text:outline-level="2">
+      <xsl:apply-templates/>
+    </text:h>
+  </xsl:template>
+    
 </xsl:stylesheet>
