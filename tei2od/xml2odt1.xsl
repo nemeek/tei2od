@@ -45,17 +45,19 @@
       <xsl:apply-templates/>
     </text:span>
   </xsl:template>
-  <xsl:template match="p/i" priority="1.0">
-    <text:p text:style-name="eestikeelne">
-      <xsl:apply-templates/>
-    </text:p>
-  </xsl:template>
-  <xsl:template match="p" priority="0.0">
-    <xsl:if test="string(.)">
-      <text:p>
-	<xsl:apply-templates/>
-      </text:p>
-    </xsl:if>
+  <xsl:template match="p">
+    <xsl:choose>
+      <xsl:when test="not(i)">
+	<text:p>
+	  <xsl:apply-templates/>
+	</text:p>
+      </xsl:when>
+      <xsl:when test="i">
+	<text:p text:style-name="eestikeelne">
+	  <xsl:apply-templates/>
+	</text:p>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
   <xsl:template match="h2">
     <text:h text:style-name="Heading_20_2" text:outline-level="2">
