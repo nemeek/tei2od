@@ -11,5 +11,12 @@ pytest
 ## Etapid
 
 1. TEI-st odt xml-i
-2. odt xml-ist odt-sse
+
+    1.1 Kasuta käsku transform.py:
+
+   ```
+        transform.py -s <stiilileht> <infile> <outfile>
+   ```
+   
+3. odt xml-ist odt-sse
 
