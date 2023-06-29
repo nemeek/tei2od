@@ -31,6 +31,9 @@
 	<style:style style:name="Bold" style:family="text" style:display-name="Bold">
 	  <style:text-properties fo:font-weight="bold"/>
 	</style:style>
+	<style:style style:name="Italic" style:family="text" style:display-name="Italic">
+	  <style:text-properties fo:font-style="italic"/>
+	</style:style>
       </office:automatic-styles>
       <office:master-styles/>
       <office:body>
@@ -40,24 +43,15 @@
       </office:body>
     </office:document>
   </xsl:template>
-  <xsl:template match="span">
-    <text:span text:style-name="Bold">
+  <xsl:template match="i">
+    <text:span text:style-name="Italic">
       <xsl:apply-templates/>
     </text:span>
   </xsl:template>
   <xsl:template match="p">
-    <xsl:choose>
-      <xsl:when test="not(i)">
-	<text:p>
-	  <xsl:apply-templates/>
-	</text:p>
-      </xsl:when>
-      <xsl:when test="i">
-	<text:p text:style-name="eestikeelne">
-	  <xsl:apply-templates/>
-	</text:p>
-      </xsl:when>
-    </xsl:choose>
+    <text:p>
+      <xsl:apply-templates/>
+    </text:p>
   </xsl:template>
   <xsl:template match="h2">
     <text:h text:style-name="Heading_20_2" text:outline-level="2">
