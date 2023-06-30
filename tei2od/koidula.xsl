@@ -34,6 +34,9 @@
 	<style:style style:name="Italic" style:family="text" style:display-name="Italic">
 	  <style:text-properties fo:font-style="italic"/>
 	</style:style>
+	<style:style style:name="Underline" style:family="text" style:display-name="Underline">
+	  <style:text-properties fo:font-style="underline"/>
+	</style:style>
       </office:automatic-styles>
       <office:master-styles/>
       <office:body>
@@ -45,6 +48,11 @@
   </xsl:template>
   <xsl:template match="i">
     <text:span text:style-name="Italic">
+      <xsl:apply-templates/>
+    </text:span>
+  </xsl:template>
+  <xsl:template match="u">
+    <text:span text:style-name="Underline">
       <xsl:apply-templates/>
     </text:span>
   </xsl:template>
