@@ -35,7 +35,7 @@
 	  <style:text-properties fo:font-style="italic"/>
 	</style:style>
 	<style:style style:name="Underline" style:family="text" style:display-name="Underline">
-	  <style:text-properties fo:font-style="underline"/>
+	  <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
 	</style:style>
       </office:automatic-styles>
       <office:master-styles/>
