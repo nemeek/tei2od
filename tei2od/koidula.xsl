@@ -58,10 +58,14 @@
   </xsl:template>
   <xsl:template match="note">
     <text:note text:id="ftn0" text:note-class="footnote">
-      <text:note-citation>1</text:note-citation><text:note-body><text:p text:style-name="Footnote">
-      <xsl:apply-templates/>
-    </text:p>
-  </text:note-body>
+      <text:note-citation>
+	<xsl:value-of select="@n"/>
+      </text:note-citation>
+      <text:note-body>
+	<text:p text:style-name="Footnote">
+	  <xsl:apply-templates/>
+	</text:p>
+      </text:note-body>
     </text:note>
   </xsl:template>
   <xsl:template match="body/p">
