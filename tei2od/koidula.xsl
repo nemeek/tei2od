@@ -20,12 +20,16 @@
 	  <style:text-properties fo:font-size="24pt" fo:font-weight="bold"/>
 	</style:style>
 	<style:style style:name="Footnote" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
-      <style:paragraph-properties fo:margin-left="0.598cm" fo:margin-right="0cm" fo:text-indent="-0.598cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
-      <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+	  <style:paragraph-properties fo:margin-left="0.598cm" fo:margin-right="0cm" fo:text-indent="-0.598cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+	  <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 	</style:style>
-	    <style:style style:name="eestikeelne" style:family="paragraph" style:parent-style-name="Standard">
-      <style:text-properties fo:font-style="italic"/>
-    </style:style>
+	<style:style style:name="line" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+	  <style:paragraph-properties fo:margin-left="1.598cm" fo:margin-right="0cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+	  <style:text-properties fo:font-style="italic"/>
+	</style:style>
+	<style:style style:name="eestikeelne" style:family="paragraph" style:parent-style-name="Standard">
+	  <style:text-properties fo:font-style="italic"/>
+	</style:style>
       </office:styles>
       <office:automatic-styles>
 	<style:style style:name="Bold" style:family="text" style:display-name="Bold">
@@ -70,6 +74,11 @@
   </xsl:template>
   <xsl:template match="body/p">
     <text:p>
+      <xsl:apply-templates/>
+    </text:p>
+  </xsl:template>
+  <xsl:template match="l">
+    <text:p text:style-name="line">
       <xsl:apply-templates/>
     </text:p>
   </xsl:template>
